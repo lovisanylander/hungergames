@@ -1,0 +1,195 @@
+/* Don't change */
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+  margin-top: -22px;
+  background-color:#a13312;
+
+  /* Center all on page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: url('https://e1.pngegg.com/pngimages/49/358/png-clipart-sinsajo-mocking-jay-hunger-games-logo-thumbnail.png'), auto;
+}
+
+/* All images */
+img {
+  object-fit: contain;
+}
+
+h2 {
+  margin-bottom: -10px;
+}
+
+h3 {
+  margin-bottom: -6px;
+}
+/* Movie background */
+.movie-background {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+  background-image: url('https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/01/The-Hunger-Games-Movies-in-Order.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Content on movie background */
+.movie-background .container {
+  background-color:black;
+  padding: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 400px;
+  right: 400px;
+  display: flex;
+  max-width: 3000px;
+}
+
+.link {
+  -webkit-text-fill-color: goldenrod;
+}
+.summary {
+  -webkit-text-fill-color: white;
+}
+
+/* Cover */
+.movie-background .container .cover img {
+  width: 430px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+/* Content */
+.movie-background .container .content {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+/* Paragraph only in movie bacground */
+.movie-background .container .content p {
+  color: #000000;
+}
+
+/* Main character */
+.main-character {
+  display: flex;
+  width: 1100px;
+}
+
+.jennifer {
+  width: 500px;
+  margin-right: 30px;
+}
+
+
+.francis {
+  width: 550px;
+  max-height: 350px;
+  margin-left: 30px;
+  margin-right: -65px;
+}
+
+/* Director */
+.director {
+ display: flex;
+  flex-direction: row-reverse;
+  width: 1040px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-right: -10px;
+
+}
+
+.directortext {
+  margin-left: -30px;
+}
+
+
+/* Rating */
+.rating {
+  display: flex;
+  align-items: baseline;
+  -webkit-text-fill-color: goldenrod;
+}
+
+/* Rating image */
+.rating .rate {
+  width: 40px;
+}
+
+/* Rating title */
+.rating h4 {
+  color: white;
+  font-size: 22px;
+}
+
+.rating .big {
+  color: black;
+  font-size: 28px;
+}
+
+
+/* Typography */
+h1 {
+  color: white;
+  font-family: 'Arial', Arial, Helvetica, sans-serif;
+}
+
+.year {
+  color: goldenrod;
+}
+
+.movies {
+  margin-top: 5px;
+  margin-left: 22.5%;
+}
+
+.newmovie {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 22.5%;
+  -webkit-text-fill-color: goldenrod;
+}
+
+
+.frame {
+  margin-bottom: 50px;
+}
+
+.trailer {
+background-color: black;
+width:100%;
+padding-bottom: 1%;
+}
+
+.footer {
+  background-color: rgb(44, 44, 44);
+  width: 100%;
+  height: 110px;
+  overflow-x: hidden;
+  align-content: center;
+  padding-top: 12px;
+}
+
+.designers {
+ align-content: center;
+ margin-left: 22.5%;
+ font-size: 18px;
+ color: white;
+ margin-bottom: -3px;
+}
+
+.mail {
+  -webkit-text-fill-color: rgb(160, 160, 160);
+  align-content: center;
+  margin-left: 22.5%;
+  font-size: 18px;
+}
